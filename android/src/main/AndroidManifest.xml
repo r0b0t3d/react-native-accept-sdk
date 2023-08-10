@@ -1,4 +1,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.iteratorsmobile.lib.accept">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
+    <application
+        android:label="Accept SDK"
+        android:supportsRtl="true">
+
+        <service
+            android:name="net.authorize.acceptsdk.network.AcceptService"
+            android:exported="false" />
+
+    </application>
 </manifest>
