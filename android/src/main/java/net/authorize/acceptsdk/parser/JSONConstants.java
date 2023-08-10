@@ -1,6 +1,6 @@
 package net.authorize.acceptsdk.parser;
 
-import net.authorize.acceptsdk.BuildConfig;
+import com.iteratorsmobile.lib.accept.BuildConfig;
 
 /**
  * Describes all Json strings, which are used in API's.
